@@ -1,0 +1,7 @@
+When designing a website there are several elements that should guide your decision-making. Of course you need to follow all the time-honored rules for good design such as proper spacing, color theory, visual hierarchy etc. However, when designing for the web there is one element that influence everything else: loading time.
+
+A succesful website is not only beautiful and user-friendly. A succesful site must be seen. In order to be seen, it must perform well on Google and this is were loading time comes into play. The Google search engine values different parameters when prioritizing its search results. Loading times and mobile-friendliness are among the key factores, which have had a great impact on how we design websites today.
+
+The use of vector graphics and animations instead of images and video allows you to deliver your message in a visual manner without giving up on speed. This has also created a trend in website-design in which simplicity and plenty of white-space are common traits together with flat-designed graphics and animation.
+
+Another trend is to keep the content of your website at a minimum. People are using the internet differently today than they did 10 years ago and the attention span have decreased significantly. If a visitor does not find the information he or she is looking for within a few seconds, they will loose interest and leave. Websites have become business cards to a large extend and are therefore less about telling the entire story of the company. 
