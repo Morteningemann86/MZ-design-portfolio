@@ -4,12 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./build/tailwind.css" />
-    <link rel="stylesheet" href="style.css">
     <title>Morten Zeiner - Freelance Webdesign</title>
   </head>
   <body>
     <!-- header section -->
-    <header class="text-gray-600 body-font px-8">
+    <header class="relative text-gray-600 body-font px-8">
       <div
         class="container mx-auto flex flex-wrap justify-between p-5 md:flex-row items-center"
       >
@@ -19,7 +18,7 @@
           <span class="ml-3 text-xl">MZ-Design</span>
         </a>
         <nav
-          class="md:ml-auto flex flex-wrap items-center text-base justify-center text-xl hidden md:block flex-col"
+          class="md:ml-auto w-48 md:w-auto flex flex-wrap items-center text-base justify-center right-0 text-xl hidden md:block flex-col bg-white rounded-2xl p-4 shadow-xl md:bg-transparent md:shadow-none"
           id="menu"
         >
           <a
@@ -49,32 +48,15 @@
           >
         </nav>
 
-<!-- Tailwind hamburger -->
-<div id="menu-btn" class="tham tham-e-squeeze tham-w-6">
-  <div class="tham-box md:hidden">
-    <div class="tham-inner bg-gray-600" />
-  </div>
-</div>
-
-
-        <!-- Burger menu -->
-        <div class="px-4 cursor-pointer md:hidden hidden" id="burger">
-          <svg
-            class="w-6"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
+        <!-- Tailwind hamburger -->
+        <div id="menu-btn" class="tham tham-e-squeeze tham-w-6 md:hidden">
+          <div class="tham-box md:hidden">
+            <div class="tham-inner bg-gray-600 md:hidden">
+            </div>
+          </div>
         </div>
-        <!--/ Burger menu -->
+        <!--/ Tailwind hamburger -->
+
       </div>
     </header>
     <!-- /header section -->
@@ -749,7 +731,7 @@
     <!-- footer section -->
     <footer class="text-gray-600 body-font bg-gray-900 px-8">
       <div
-        class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+        class="container px-5 py-8 mx-auto flex justify-center items-center sm:flex-row flex-col"
       >
         <p class="text-sm text-white sm:ml-4 sm:pl-4 sm:py-2 sm:mt-0 mt-4">
           © 2021 MZ-Design —
