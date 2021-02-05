@@ -22,3 +22,6 @@ menuBtn.addEventListener('click', () => {
 })
 
 
+// https://devdojo.com/tnylea/animating-tailwind-transitions-on-page-load
+// https://codepen.io/mazedlx/pen/wmadRX
+
